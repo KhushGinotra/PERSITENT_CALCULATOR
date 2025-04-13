@@ -1,0 +1,89 @@
+/* Background and base styles */
+body {
+    background-color: #f3f5f6;
+    color: #000;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Display box */
+#display {
+    font-size: 2em;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #fefefe;
+    border: none;
+    padding: 15px;
+    margin: 0 auto 20px;
+    box-shadow: inset 0 0 5px #ccc;
+}
+
+/* Button styles */
+button {
+    font-size: 1.5em;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+#button, #bob {
+    background-color: white;
+    color: black;
+}
+
+#bob {
+    background-color: #e6e6e6;
+}
+
+#button:active, #bob:active {
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Equals button style */
+button[onclick="equalto()"] {
+    background-color: #555;
+    color: white;
+}
+
+/* History box */
+.history {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    font-family: monospace;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.history-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+#clear-history-container {
+  margin-top: 10px;
+  display: none; /* hidden by default */
+  font-size:x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}

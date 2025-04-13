@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSISTENCE CALCULATOR</title>
+    <link rel="stylesheet" href="calcula.css">
+</head>
+<body>
+    <div class="center">
+        <h1 class="center">CALCULATOR WEB APP</h1><br>
+        <input type="text" id="display" value="0" readonly>
+        <div class="center">
+            <button id="bob" onclick="clearALL()">AC</button>
+            <button id="bob" onclick="percent()">%</button>
+            <button id="bob" onclick="clearone()">⌫</button>
+            <button id="bob" onclick="divide()">÷</button><br>
+            <button id="button" onclick="entry(7)">7</button>
+            <button id="button" onclick="entry(8)">8</button>
+            <button id="button" onclick="entry(9)">9</button>
+            <button id="button" onclick="multy()">×</button><br>
+            <button id="button" onclick="entry(4)">4</button>
+            <button id="button" onclick="entry(5)">5</button>
+            <button id="button" onclick="entry(6)">6</button>
+            <button id="button" onclick="minus()">-</button><br>
+            <button id="button" onclick="entry(1)">1</button>
+            <button id="button" onclick="entry(2)">2</button>
+            <button id="button" onclick="entry(3)">3</button>
+            <button id="button" onclick="plus()">+</button><br>
+            <button id="button" onclick="doublezero()">00</button>
+            <button id="button" onclick="entry(0)">0</button>
+            <button id="button" onclick="decimale()">.</button>
+            <button id="button" onclick="equalto()">=</button>
+        </div>
+    </div>
+    
+    <div class="center">
+        <h2>History</h2>
+        <div id="history" class="history"></div>
+        <div id="clear-history-container">
+            <button id="clear-history" onclick="clearHistory()">Clear</button>
+        </div>
+    </div>
+    
+    <script src="CALCUU.js"></script>
+</body>
+</html>
